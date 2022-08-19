@@ -1,0 +1,16 @@
+.form button{
+    border: none;
+    background-color: #3498DB;
+    padding: 8px 40px;
+    color: white;
+    border-radius: 5px;
+}
+.form p{
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+.form input{
+    border: none;
+    background-color: lightgrey;
+}
