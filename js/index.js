@@ -1,10 +1,13 @@
+
+
 document.getElementById('submit-button').addEventListener('click', function(){
     // console.log('clicked calculate button')
 
     const incomeInput = document.getElementById('income-input');
     const incomeMoney = incomeInput.value;
     const incomeNewAmount = parseFloat(incomeMoney);
-        // incomeInput.value = incomeNewAmount - totalNewAmount;
+   // incomeInput.value = incomeNewAmount - totalNewAmount;
+   // console.log(incomeNewAmount)
 
    const foodRent = document.getElementById('food-rent');
    const foodMoney = foodRent.value;
@@ -29,7 +32,12 @@ document.getElementById('submit-button').addEventListener('click', function(){
    const balance = document.getElementById('balance');
    const balanceText = balance.innerText;
    const balanceNewAmount = parseFloat(balanceText);
-    balance.innerText = balanceNewAmount + incomeNewAmount;
+   balance.innerText =  balanceNewAmount + incomeNewAmount;
+
+
+
+    
+
 
   
 //clear input
